@@ -17,7 +17,7 @@ class Array
       for(int i=0;i<sizeOfArray;i++)
         arr[i] = Integer.parseInt(st[i]);
        int x = Integer.parseInt(read.readLine());
-       Searching obj = new Searchning();
+       Searching obj = new Searching();
        System.out.println(obj.search(arr, sizeOfArray, x));
      }
    }
